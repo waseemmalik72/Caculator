@@ -1,0 +1,28 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.main-children{
+    border: 1px solid;
+    width: 450px;
+    padding: 10px;
+}
+.box{
+    width: 100px;
+    height: 30px;
+    border: 1px solid;
+    margin:0 10px;
+}
+.rows{
+    display:flex ;
+    justify-content:center;
+    padding: 4px;
+}
+.total{
+    border: 1px solid;
+    height: 60px;
+    width: 413px;
+    position: relative;
+    left: 14px;
+    margin-bottom: 6px;
+}
