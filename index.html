@@ -9,36 +9,36 @@
 <body>
     <div class="main-box">
        <div class="main-children">
-        <div class="rows total"></div>
+        <div class="rows total" id="total"></div>
         <div class="rows">
-            <div><button class="box sw">(</button></div>
-            <div><button class="box sw">)</button></div>
-            <div><button class="box sw">%</button></div>
-            <div><button class="box sw">AC</button></div>
+            <div><button class="box sw" id="opening-slash" onclick="">(</button></div>
+            <div><button class="box sw" id="closing-slash" onclick="">)</button></div>
+            <div><button class="box sw" id="modulus" onclick="">%</button></div>
+            <div><button class="box sw" id="all-clear" onclick="">AC</button></div>
         </div>
         <div class="rows">
-            <div><button class="box nw">7</button></div>
-            <div><button class="box nw">8</button></div>
-            <div><button class="box nw">9</button></div>
-            <div><button class="box sw">÷</button></div>
+            <div><button class="box nw" id="seven" onclick="calculation()">7</button></div>
+            <div><button class="box nw" id="eight" onclick="calculation()">8</button></div>
+            <div><button class="box nw" id="nine" onclick="calculation()">9</button></div>
+            <div><button class="box sw" id="divide" onclick="calculation()">÷</button></div>
         </div>
         <div class="rows">
-            <div><button class="box nw">4</button></div>
-            <div><button class="box nw">5</button></div>
-            <div><button class="box nw">6</button></div>
-            <div><button class="box sw">x</button></div>
+            <div><button class="box nw" id="four" onclick="calculation()">4</button></div>
+            <div><button class="box nw" id="five" onclick="calculation()">5</button></div>
+            <div><button class="box nw" id="six" onclick="calculation()">6</button></div>
+            <div><button class="box sw" id="multiply" onclick="calculation()">x</button></div>
         </div>
         <div class="rows">
-            <div><button class="box nw">1</button></div>
-            <div><button class="box nw">2</button></div>
-            <div><button class="box nw">3</button></div>
-            <div><button class="box sw">-</button></div>
+            <div><button class="box nw" id="one" onclick="calculation()">1</button></div>
+            <div><button class="box nw" id="two" onclick="calculation()">2</button></div>
+            <div><button class="box nw" id="three" onclick="calculation()">3</button></div>
+            <div><button class="box sw" id="minus" onclick="calculation()">-</button></div>
         </div>
         <div class="rows">
-            <div><button class="box nw">.</button></div>
-            <div><button class="box nw">0</button></div>
-            <div><button class="box sw" id="equals">=</button></div>
-            <div><button class="box sw">+</button></div>
+            <div><button class="box nw" id="dot" onclick="calculation()">.</button></div>
+            <div><button class="box nw" id="zero" onclick="calculation()">0</button></div>
+            <div><button class="box sw" id="equals" onclick="calculation()">=</button></div>
+            <div><button class="box sw" id="plus" onclick="calculation()">+</button></div>
         </div>
        </div>
     </div>
