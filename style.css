@@ -45,12 +45,13 @@
     font-family: sans-serif;
     font-weight: 200;
     font-size: xx-large;
+    background-color: black;
 }
 .nw{
     background-color: rgb(204, 204, 204);
 }
 .sw{
-    background-color: rgb(78, 78, 78);
+    background-color: rgb(243, 159, 42);
 }
 #equals{
     background-color: blue;
@@ -58,4 +59,27 @@
 }
 .box:active{
     border: 4px solid white;
+}
+.nw:hover{
+    background-color: rgb(106, 106, 106);
+}
+.sw:hover{
+    background-color: rgb(148, 89, 7);
+}
+#equals:hover{
+    background-color: rgb(83, 83, 247);
+}
+.nw:active{
+    background-color: rgb(204, 204, 204);
+}
+.sw:active{
+    background-color: rgb(243, 159, 42);
+}
+#equals:active{
+    background-color: blue;
+    color: white;
+}
+#all-clear{
+    width: 413px;
+    border-radius: 20px;
 }

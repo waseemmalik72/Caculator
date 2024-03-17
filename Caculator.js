@@ -1,22 +1,4 @@
-var one = document.getElementById("one");
-var two = document.getElementById("two");
-var three = document.getElementById("three");
-var four = document.getElementById("four");
-var five = document.getElementById("five");
-var six = document.getElementById("six");
-var seven = document.getElementById("seven");
-var eight = document.getElementById("eight");
-var nine = document.getElementById("nine");
-var zero = document.getElementById("zero");
-var plus = document.getElementById("plus");
-var minus = document.getElementById("minus");
-var divide = document.getElementById("divide");
-var multiply = document.getElementById("multiply");
-var equals = document.getElementById("equals");
-var all_clear = document.getElementById("all-clear");
-var modulus = document.getElementById("modulus");
-var dot = document.getElementById("dot");
-var opening_slash = document.getElementById("opening-slash");
-var closing_slash = document.getElementById("closing-slash");
-var total = document.getElementById("total");
-
+var display = document.getElementById("total");
+function dependOnclIck(input) {
+    display.value += input;
+};
