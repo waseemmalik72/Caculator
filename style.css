@@ -9,7 +9,7 @@
     height: 700px;
 }
 .main-children{
-    border: 5px solid rgba(255, 255, 255, 0.555);
+    border: 5px solid;
     width: 450px;
     padding: 10px;
     border-radius: 20px;
